@@ -7,7 +7,6 @@
     
     <div class="about-w ">
 
-        <div class="skeleton" style="width: 40px; height: 40px;"></div>
 
         <h1 style="text-align: center;">Pro Websites</h1>
         
