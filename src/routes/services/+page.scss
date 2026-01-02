@@ -1,0 +1,235 @@
+
+    hr {
+        border: 1px solid rgb(38, 38, 38);
+    }
+
+
+.components {
+    h2 {
+        font-size: 36px;
+   text-align: center;
+   background: linear-gradient(45deg,  rgb(255, 255, 255), rgb(183, 181, 181),);
+   color: transparent;
+   background-clip: text;
+   }
+    background: black;
+    padding: 20px;
+
+    }
+
+.heading1-service {
+ 
+    line-height: 0.3;
+}
+
+
+.components p {
+    text-align: center;
+    color: white;
+}
+
+
+.grid-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px;
+   
+  
+}
+
+
+.grid2-service {
+
+    @media screen and (min-width:1024px) {
+        display: flex;
+       
+        justify-content: center;
+        gap: 100px;
+
+
+    }
+}
+
+.grid2-service-reverse {
+
+    @media screen and (min-width:1024px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 100px;
+
+
+    }
+}
+
+.img {
+    border-radius: 18px;
+}
+
+.reverse {
+    @media screen and (min-width:1024px) {
+        
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.service-navbar1 {
+    width: 400px;
+    height: 50px;
+
+    background: rgb(41, 41, 41);
+ 
+    position: relative;
+    z-index: 2;
+
+    @media screen and (max-width:400px) {
+        width: 100%;
+    }
+}
+
+.nav-s {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.ham-s {
+    cursor: pointer;
+    width: 50px;
+    height: 56px;
+    background: transparent;
+    border: transparent;
+    transform: translateY(-7px);
+   
+    
+}
+
+.ham-st, .ham-sm, .ham-sb {
+    
+    transition: all 1s;
+    width: 30px;
+    height: 2px;
+    background: white;
+
+}
+
+.ham-sm {
+    transform: translateY(7px);
+}
+
+.ham-sb {
+    transform: translateY(14px);
+}
+
+.open-s {
+    
+
+    cursor: pointer;
+    transform: translateY(0px);
+    
+    
+    height: 50px;
+
+    .ham-sm {
+        display: none;
+    }
+
+    .ham-st {
+        transform: translateY(3px) rotate(45deg);
+    }
+
+    .ham-sb {
+        transform: translateY(1px) rotate(-45deg);
+    }
+}
+
+.pad-s {
+    background: rgb(41, 41, 41);
+    animation: 0.3s padAnim linear;
+    position: relative; 
+    z-index: 1;
+    border-radius: 0 0 12px 12px;
+
+
+    @keyframes padAnim {
+        from {
+            transform: translateY(-100%);
+        }
+    }
+    width: 402px;
+    height: 50px;
+
+    @media screen and (max-width: 400px) {
+        width: 100%;
+        
+    }
+}
+
+
+.route-service {
+    width: 400px;
+    height: 300px;
+    background: rgb(41, 41, 41);
+    color: white;
+
+    @media screen and (max-width:400px) {
+        width: 100%;
+    }
+}
+
+.s106 {
+    width: 100%;
+    height: 50px;
+    background: rgb(32, 32, 32); color: white;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+.s108 {
+    button {
+        color: white;
+        background: dodgerblue;
+        border: transparent;
+        padding: 10px;
+        border-radius: 30px;
+        margin-left: 10px;
+
+        &:hover {
+            background: black;
+        }
+        
+    }
+}
+
+.route1-service {
+ 
+
+    b {
+     
+        color: rgb(110, 165, 221);
+       
+   }
+    padding: 20px;
+
+
+}
+
+.r110 {
+    display: flex; justify-content: center;
+    width: 100%;
+    
+
+    
+}

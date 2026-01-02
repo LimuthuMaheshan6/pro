@@ -1,0 +1,133 @@
+.about-p {
+    margin: 40px;
+
+    
+    text-align: justify;
+    @media screen and (min-width: 1024px) {
+        
+        text-align: center;
+    }
+    
+}
+
+
+.about-w {
+    width: 100%;
+
+
+    display: flex; flex-direction: column; align-items: center;
+}
+
+.nation {
+    font-size: 40px;
+}
+
+.n12 {
+   
+    color: rgb(46, 46, 46);
+    text-align: center;
+   font-size: 18px;
+   margin-top: -30px;
+    
+    @media screen and (min-width:1024px) {
+        font-size: 21px; 
+        
+    }
+}
+
+.video-wrapper {
+    height: auto;
+}
+
+.img-fast {
+    max-width: 1024px;
+
+    
+    border-radius: 18px;
+
+    
+
+  
+
+     @media screen and (max-width: 1028px) {
+       border-radius: 0px;
+        width: 100%;
+       
+
+       
+        
+    }
+
+    @media screen and (min-width: 1029px) {
+        height: 600px;
+    }
+
+
+}
+
+.skeleton {
+
+    width: 100%;
+    height: 100%;
+    animation: 1s animation infinite linear loop;
+    @keyframes animation {
+        from {background: rgb(0, 0, 0);}
+        to {background: rgb(17, 139, 192);}
+    }
+
+}
+
+
+.img-fast2 {
+    max-width: 1024px;
+ 
+    
+    border-radius: 18px;
+    
+
+  
+
+     @media screen and (max-width: 690px) {
+       border-radius: 0px;
+        width: 100%; 
+       
+        
+    }
+}
+
+.h {
+    max-height: 600px;
+}
+
+.n10 {
+    text-align: center;
+}
+
+.n26 {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.sec1 {
+    @keyframes identifier {
+        from {
+            opacity: 0;
+        }
+    }
+
+    animation: 1s identifier;
+}
+
+.bg-yellow {
+    background: yellow;
+}
+
+.pb-20 {
+    @media screen and (min-width: 1024px) {
+        padding-bottom: 20px;
+    }
+}
