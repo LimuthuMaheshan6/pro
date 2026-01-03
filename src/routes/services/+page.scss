@@ -17,9 +17,13 @@
 
     }
 
-.heading1-service {
+    
+    .heading1-service {
+    @media screen and (min-width: 1024px) {
+        
+        line-height: 0.3;
+    }
  
-    line-height: 0.3;
 }
 
 
