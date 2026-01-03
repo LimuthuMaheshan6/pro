@@ -155,7 +155,7 @@ $width_screen:800px;
             color: black;
             transition: 1s;
             background: rgb(206, 55, 21);
-            transform: translateY(-7px);
+    
         }
 
 
@@ -163,7 +163,11 @@ $width_screen:800px;
 
     display: flex;
     justify-content: right;
-    margin-right: 20px;
+    margin-right: 3px;
+
+    @media screen and (min-width: 1024px) {
+    margin-right: 20px;    
+    }
 }
 
     .hamburger {

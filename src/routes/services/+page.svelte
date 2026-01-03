@@ -24,12 +24,12 @@
     <div class="grid-service">
 
         <div class="grid2-service">
-            <div style="width: 400px;">
+            <div class="res-s">
                 <h2 class="heading2-service">Fast Websites</h2>
-                <p>Performance Focused. Doesn't have to worry about speed.</p>
+                <p class="service-p">Performance Focused. Doesn't have to worry about speed.</p>
             </div>
             <div >
-                <img class="img" src="images/high.webp" width="400px" alt="high performance">
+                <img class="img" src="images/high.webp"  alt="high performance">
             </div>
         </div>
 
@@ -42,10 +42,10 @@
      <div class="grid-service">
 
         <div class="grid2-service-reverse">
-            <div style="width: 400px;margin-top: 30px;">
+            <div class="res-s" style="margin-top: 30px;">
                 <h2 class="heading2-service">Responsive Navbars</h2>
 
-                <p>Overcome the complexity of building a navbar</p>
+                <p class="service-p">Overcome the complexity of building a navbar</p>
             </div>
             <div>
                 <div class="service-navbar1" style="margin-top: 90px;">
@@ -89,12 +89,12 @@
             <div class="grid-service">
 
         <div class="grid2-service">
-            <div style="width: 400px;margin-top: 30px;">
+            <div class="res-s" style="margin-top: 30px;">
                 <h2 class="heading2-service">Powerful Navigation</h2>
 
-                <p>Imagine the burden of getting a one page scroll web without page navigation.</p>
+                <p class="service-p">Imagine the burden of getting a one page scroll web without page navigation.</p>
             </div>
-            <div>
+          
                <div class="route-service">
                   <div class="s106">
                     <div style="margin-left: 10px;"></div>
@@ -114,7 +114,7 @@
 
 
                </div>
-            </div>
+       
             
 
         </div>
@@ -126,40 +126,15 @@
         <div class="grid-service">
 
         <div class="grid2-service-reverse">
-            <div style="width: 400px;margin-top: 30px;">
+            <div class="res-s" style="margin-top: 30px;">
                 <h2 class="heading2-service">Hosting With Domain</h2>
 
-                <p>Helping you in hosting and domain name registry.</p>
+                <p class="service-p">Helping you in hosting and domain name registry.</p>
             </div>
             <div>
-                <div class="service-navbar1" style="margin-top: 90px;">
-                    <div class="nav-s">
-                        <button id="btn-s" class="ham-s" aria-label="b" on:click={
-                            () => {
-                                let btn = document.getElementById("btn-s")
-                                let pad = document.getElementById("pad-s")
-
-                                pad?.classList.toggle("display-none")
-
-                                btn?.classList.toggle("open-s")
-                            }
-                        }>
-                            <div class="ham-st"></div>
-                            <div class="ham-sm"></div>
-                            <div class="ham-sb"></div>
-
-                        </button>
-                        <div style="transform: translateY(-9px);">
-                            <p>Logo</p>
-                        </div>
-                        <div style="transform: translateY(-9px); margin-right: 9px;">
-                            <p>CTA</p>
-                        </div>
-                    </div>
-                </div>
-                <div id="pad-s" class="display-none pad-s">
-                
-                </div>
+               <h2 style="margin-bottom: 0px;">.com  .lk  .net</h2>
+               <h2>.org   .info</h2>
+                    
             </div>
             
 
@@ -173,9 +148,9 @@
      <div class="grid-service">
 
         <div class="grid2-service">
-            <div style="width: 400px;">
+            <div class="res-s">
                 <h2 class="heading2-service">Premium Designs</h2>
-                <p>User friendly design based on your purpose, branding and colour themes.</p>
+                <p class="service-p">User friendly design based on your purpose, branding and colour themes.</p>
             </div>
             <div >
                 <img class="img" src="images/Design.webp" width="400px" alt="high performance">
