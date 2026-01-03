@@ -446,10 +446,13 @@
 
 .testimonials-card {
     border: 1px solid rgba(41, 41, 41, 0.73);
-    height: 340px;
+    height: auto;
     max-width: 400px;
     border-radius: 18px;
 
+    @media screen and (min-width: 420px) {
+        height: 340px;
+    }
     display: flex;
     flex-direction: column;
     justify-content: space-between;
