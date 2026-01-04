@@ -103,7 +103,7 @@
 <section class="plan">
 
     <!-- Start the road to saving time, money & reputation -->
-    <h2>Take the next step</h2>
+    <h2 style="text-transform: none;">Take the next step</h2>
 
     <br>
 
