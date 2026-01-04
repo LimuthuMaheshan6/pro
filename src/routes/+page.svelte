@@ -102,7 +102,8 @@
 
 <section class="plan">
 
-    <h2>Start the road to saving time, money & reputation</h2>
+    <!-- Start the road to saving time, money & reputation -->
+    <h2>Take the next step</h2>
 
     <br>
 
