@@ -28,19 +28,48 @@
 				
 		 <meta charset="utf-8" />
 
-		<script type="application/ld+json">
-			{
-			"@context": "https://schema.org",
-			"@graph" : [
-				{
-				"@type": "WebSite",
-				"name": "Pro Websites ~ Sri Lanka", 
-				"image":"https://prowebsiteslk.web.app/favico.ico",
-				"services": "Software"
-				}
-			 ],
-			}
-		</script>
+		 <script type='application/ld+json'>
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://prowebsiteslk.vercel.app/#",
+              "name": "Pro Websites ~ Sri Lanka",
+              "url": "https://prowebsiteslk.vercel.app/",
+              "sameAs": [
+                "https://prowebsiteslk.vercel.app/"
+              ],
+              "logo": {
+                "@type": "ImageObject",
+                "@id": "https://prowebsiteslk.vercel.app/#logo",
+                "url": "https://prowebsiteslk.vercel.app/",
+                "width": 48,
+                "height": 48,
+                "caption": "Pro Websites ~ Sri Lanka"
+              },
+              "image": {
+                "@id": "https://prowebsiteslk.vercel.app/#logo"
+              }
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://prowebsiteslk.vercel.app/#website",
+              "url": "https://prowebsiteslk.vercel.app/",
+              "name": "Pro Websites ~ Sri Lanka",
+              "description": "Helping people who struggles with convicing clients, employers in interviews to convicing most important moments of their lives.",
+              "publisher": {
+                "@id": "https://prowebsiteslk.vercel.app/#organization"
+              },
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://prowebsiteslk.vercel.app/?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }
+          ]
+        }
+    </script>
 
 	    <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
