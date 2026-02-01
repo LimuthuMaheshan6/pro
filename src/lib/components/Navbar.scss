@@ -256,7 +256,26 @@ $width_screen:800px;
 }
 
 
+.he {
+    position: relative;
+    line-height: 1;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    
 
+    z-index: 900000;
+
+
+    @keyframes identifier {
+        from {}
+    }
+   
+}
 
 
 

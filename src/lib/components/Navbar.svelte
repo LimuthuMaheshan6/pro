@@ -3,6 +3,29 @@
     import { page } from "$app/stores";
     import { onMount } from "svelte";
 
+    
+    $effect(() => {
+        setInterval(() => {
+            
+             if (window.scrollY === 0) {
+                he?.classList.remove("display-none")
+            }
+        }, 100)
+        let he = document.getElementById("he")
+        
+        document.addEventListener("scroll", () => {
+
+            setTimeout(() => {
+
+                he?.classList.add("display-none")
+            }, 0)
+
+            
+        })
+
+
+       
+    })
     let path = ""
   
 
@@ -18,7 +41,8 @@
 
 </script>
 
-<div class="nav">
+<nav class="nav">
+    <p id="he" class="he">Call +94703143435 <span style="opacity: 0;">.</span></p>
     
     <div id="navbar" class="navbar">
         <div class="laptop">
@@ -106,5 +130,5 @@
     
     </div>
     
-</div>
+</nav>
 

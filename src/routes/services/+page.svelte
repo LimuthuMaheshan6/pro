@@ -73,8 +73,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="pad-s" class="display-none pad-s">
-                
+                <div id="pad-s" class="display-none pad-s">      
                 </div>
             </div>
             

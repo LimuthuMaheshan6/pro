@@ -8,7 +8,7 @@
 <section class="hero-section">
     <br><br>
     <div>
-        <h1  style="text-align: center;">Responsive, Rich, Marketing  Websites</h1>
+        <h1  style="text-align: center; ">Responsive, Rich, Marketing  Websites</h1>
         <p class="heading-text" style="text-align:center; font-size: 21px;"><i>"Helping you to close the best deals"</i></p> <br>
     </div>
     <div>
@@ -26,7 +26,7 @@
 
 
 <section class="cost">
-    <h2  style="text-align: center;">Cost of Low Budget Websites</h2>
+    <h2  style="text-align: center;">Cost of AI Generated Websites</h2>
 
    <div data-aos="fade-up" class="cards-cost">
         <div class="card-cost">
