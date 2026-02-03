@@ -55,6 +55,7 @@
 		"svelte"
 	],
 	"dependencies": {
-		"aos": "^2.3.4"
+		"aos": "^2.3.4",
+		"zod": "^4.3.6"
 	}
 }

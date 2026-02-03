@@ -1,9 +1,29 @@
 <script lang="ts">
+    import { onMount } from "svelte";
+
+
+    import {z} from "zod";
+
+ 
+    const User = {
+       email: z.string().email(),
+       number: z.string().min(2)
+    };
+    
+
+    
     let form = {
-        name: "",
+      
         email: "", 
         number: ""
     }
+    // the parsed result is validated and type safe!
+  
+    
+    // so you can use it with confidence :)
+    
+
+
 </script>
 
 
@@ -17,13 +37,27 @@
 <div class="">
     
     <p style="text-align: center; font-weight: 300">Tell us about you</p>
-        <form action="">
-            <input bind:value={form.email} type="text" placeholder="Email"> <br><br>
-            <input bind:value={form.number} type="tel" placeholder="Whatsapp Number"><br><br>
+        <form on:submit={(e) => {
+            e.preventDefault()
+
+
+            console.log("submited...")
+            
+                
+        }}>
+            <input bind:value={form.email} type="email" placeholder="Email"> 
+            {#if form.email && !User.email.safeParse(form.email).success}
+                <p style="margin: 0; font-size: 11px; color: red;">Need correct form of email</p>
+            {/if}
+            <br><br>
+            <input bind:value={form.number} type="tel" placeholder="Whatsapp Number">
+            {#if form.number && !User.number.safeParse(form.number).success}
+                <p style="margin: 0; font-size: 11px; color: red;">Type your phone number</p>
+                
+            {/if}
+            <br><br>
     
-        <button class="con-btn" type="submit"  on:click={() => {
-            console.log("Form: ",form)
-        }}>Form Works</button>
+        <button class= {(!(User.email.safeParse(form.email).success) || !User.number.safeParse(form.number).success) ? "con-btn ":"con-btn-active "}  disabled={!(User.email.safeParse(form.email).success) && !User.number.safeParse(form.number).success} type="submit">Form Works</button>
         </form>
     
 </div>
@@ -38,6 +72,7 @@
 </section>
 
 
+
 <style> 
     input {
         outline: none;
@@ -49,14 +84,29 @@
     }
 
     .con-btn {
+       
         padding: 10px;
         cursor: pointer;
-        background: rgb(42, 204, 42);
         color: white;
         border: none;
         font-size: 16px;
         border-radius: 12px;
+        background: rgba(0, 128, 0, 0.384);
+        
 
+
+
+    }
+
+     .con-btn-active {
+       
+        padding: 10px;
+        cursor: pointer;
+        color: white;
+        border: none;
+        font-size: 16px;
+        border-radius: 12px;
+        background: rgb(0, 128, 0);
         
 
 
@@ -64,7 +114,5 @@
     }
 
 
-    .con-btn:hover {
-        background: green;
-    }
+  
 </style>
