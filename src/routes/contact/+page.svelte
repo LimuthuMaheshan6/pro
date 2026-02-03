@@ -10,12 +10,19 @@
        number: z.string().min(2)
     };
     
-
+    
     
     let form = {
-      
+        
         email: "", 
         number: ""
+    }
+
+    
+    $:errUser = {
+        email: !User.email.safeParse(form.email).success,
+        number: !User.number.safeParse(form.number).success,
+
     }
     // the parsed result is validated and type safe!
   
@@ -57,7 +64,7 @@
             {/if}
             <br><br>
     
-        <button class= {(!(User.email.safeParse(form.email).success) || !User.number.safeParse(form.number).success) ? "con-btn ":"con-btn-active "}  disabled={!(User.email.safeParse(form.email).success) && !User.number.safeParse(form.number).success} type="submit">Form Works</button>
+        <button class= {(!(User.email.safeParse(form.email).success) || !User.number.safeParse(form.number).success) ? "con-btn ":"con-btn-active "}  disabled={errUser.email || errUser.number} type="submit">Form Works</button>
         </form>
     
 </div>
