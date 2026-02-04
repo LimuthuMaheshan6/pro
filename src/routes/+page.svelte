@@ -28,7 +28,7 @@
 <section class="cost">
     <h2  style="text-align: center;">Cost of AI Generated Websites</h2>
 
-   <div data-aos="fade-up" class="cards-cost">
+   <div  class="cards-cost">
         <div class="card-cost">
             <b style="transform: translateY(-21px);">Not Marketing Specialized</b>
             <img style="border-radius: 45px; " src="images/anti_marketing.jpeg" alt="nomarketing" width="225px">
@@ -63,7 +63,7 @@
 <section class="value">
     <h2 class="value-heading">What You'll Get ?</h2>
 
-    <div class="value-c" data-aos="zoom-in-up">
+    <div class="value-c">
         <div class="value-content">
             <b>Lead Generation</b>
             <img style="border-radius: 100%;"  width="200px" src="images/lead.webp" alt="leads">
@@ -107,7 +107,7 @@
 
     <br>
 
-    <div class="plan-cards" data-aos="zoom-in-up">
+    <div class="plan-cards">
         <div class="plan-card">
             <br><b>1. WATCH</b>
             <p>Hour Explain Video</p>
