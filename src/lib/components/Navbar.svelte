@@ -42,7 +42,9 @@
 </script>
 
 <nav class="nav">
-    <p id="he" class="he">Call +94703143435 <span style="opacity: 0;">.</span></p>
+    <a style="text-decoration: none;" href="tel:940703143435">
+        <p id="he" class="he">Call +94703143435 <span style="opacity: 0;">.</span></p>
+    </a>
     
     <div id="navbar" class="navbar">
         <div class="laptop">

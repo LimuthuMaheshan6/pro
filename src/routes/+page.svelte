@@ -4,7 +4,11 @@
 
    
 </script>
-
+<a target="_blank" href="https://wa.me/send?phone=940703143435">
+    <div class="whatsapp-icon">
+        <img src="icon/social.png" width="65px" alt="icon">
+    </div>
+</a>
 <section class="hero-section">
     <br><br>
     <div>

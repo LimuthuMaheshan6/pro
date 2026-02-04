@@ -451,6 +451,7 @@
     height: auto;
     max-width: 400px;
     border-radius: 18px;
+    margin: 10px;
 
     @media screen and (min-width: 420px) {
         height: 340px;
@@ -475,5 +476,18 @@
     }
 
 }
+
+.whatsapp-icon {
+
+    position: fixed;
+    z-index: 100000;
+    bottom: 0;
+    
+    transform: translateY(-10px) translateX(3px);
+   
+
+}
+
+
 
 
