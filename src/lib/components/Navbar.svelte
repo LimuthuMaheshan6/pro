@@ -49,7 +49,7 @@
     <div id="navbar" class="navbar">
         <div class="laptop">
             <div class="logo">
-                <a href="/">Pro Websites .LK</a>
+                <a href="/">Pro Websites LK</a>
             </div>
             <div class="links">
                 {#each links as item}
@@ -90,7 +90,7 @@
 
                     pad?.classList.add("display-none")
                     ham?.classList.remove("open")
-                }}>Pro Websites .LK</a>
+                }}>Pro Websites LK</a>
             </div>
             <div class="contact" style="margin-left: -30px;">
                 <a  href="/contact" on:click={() => {
