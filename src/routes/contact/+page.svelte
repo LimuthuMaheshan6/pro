@@ -74,10 +74,10 @@
 <br>
 
 <section style="background: #000; color: white; padding-top: 30px; padding-bottom: 600px;">
-    <p style="text-align: center; line-height: 1;">Name:Limuthu Maheshan</p>
-    <a style="text-decoration: none; color: grey;" href="tel:940703143435">
+    <a style="text-decoration: none; color: white;" href="tel:940703143435">
         <p style="text-align: center; line-height: 1;">Call: +94 703143435</p>
     </a>
+    <p style="text-align: center; line-height: 1;">Name:Limuthu Maheshan</p>
 </section>
 
 
