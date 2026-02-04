@@ -34,18 +34,21 @@
 
    <div  class="cards-cost">
         <div class="card-cost">
-            <b style="transform: translateY(-21px);">Not Marketing Specialized</b>
+            <b>Not Marketing Specialized</b>
             <img style="border-radius: 45px; " src="images/anti_marketing.jpeg" alt="nomarketing" width="225px">
+            <p></p>
         </div>
 
         <div class="card-cost">
             <b>One Page Scroll Only</b>
             <img style="border-radius:30px" src="images/one-page.png" alt="one-page-only" width="200px">
+            <p></p>
         </div>
 
         <div class="card-cost">
             <b>Not SEO Focused</b>
             <img class="" src="images/google.jpg" width="270px" alt="google-logo">
+            <p></p>
         </div>
     </div> 
 
@@ -92,7 +95,7 @@
         <div class="who">
             <p class="who1">Hello,</p>
             <p class="who2">I'm <b>Limuthu Maheshan</b>.</p>
-            <p class="who3" data-aos="fade-up">
+            <p class="who3">
                 10 years of coding experience starting with my first language Pascal.
                 On my goal of helping customers with best design choices geared for performance.
             </p>

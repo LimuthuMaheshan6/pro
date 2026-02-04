@@ -163,12 +163,12 @@
 
 
     color: black;
-    max-width: 400px;
+    max-width: 320px;
     
     overflow: hidden;
-    height: 400px;
+    height: 320px;
 
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    display: flex; flex-direction: column; align-items: center; justify-content: space-between;
    
 
     border-radius: 18px;
