@@ -95,7 +95,7 @@
         <div class="who">
             <p class="who1">Hello,</p>
             <p class="who2">I'm <b>Limuthu Maheshan</b>.</p>
-            <p class="who3">
+            <p class="who3" data-aos="fade-up">
                 10 years of coding experience starting with my first language Pascal.
                 On my goal of helping customers with best design choices geared for performance.
             </p>
@@ -214,6 +214,20 @@
             <div style="display:flex;  width:240px; position:relative; margin: 3px; gap: 2px;">
                 <div class=""><img style="background:dodgerblue;width: 80px; height:80px; border-radius: 100%;" src="images/thenul.webp" alt="binuk"></div>
                 <p style="font-size: 15px;">Thenul <br> <i style="color: grey;">Cinnamon Exporter</i></p>
+            </div>
+            </div>
+
+                <div class="testimonials-card" >
+                <div class="" style="display: flex; flex-direction: column; align-items:center;">
+                    <p style="text-align: justify; margin:10px; font-size:18px">
+                        Excellect job.<b style="opacity: 0;"> bbbbb bbbbb bbbbbbbbbb bbbbbbbbbbbbb bbbbbbbb bbbbbbbbbb bbbbbbbbbbbbb bbbbbb.</b>
+                    </p>
+        
+        
+                           </div>
+            <div style="display:flex;  width:280px; position:relative; margin: 3px; gap: 2px;">
+                <div class=""><img style="background:dodgerblue;width: 60px; height:60px; border-radius: 100%;" src="images/book.ico" alt="binuk"></div>
+                <p style="font-size: 15px;">Professor Stories <br> <i style="color: grey;">A Boston Book Company</i></p>
             </div>
             </div>
             
