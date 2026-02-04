@@ -64,7 +64,7 @@
             {/if}
             <br><br>
     
-        <button class= {(!(User.email.safeParse(form.email).success) || !User.number.safeParse(form.number).success) ? "con-btn ":"con-btn-active "}  disabled={errUser.email || errUser.number} type="submit">Form Works</button>
+        <button class= {(!(User.email.safeParse(form.email).success) || !User.number.safeParse(form.number).success) ? "con-btn ":"con-btn-active "}  disabled={errUser.email || errUser.number} type="submit">Send</button>
         </form>
     
 </div>
