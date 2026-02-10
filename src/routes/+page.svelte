@@ -179,7 +179,7 @@
                             <audio style="margin:5px;" controls  src="audio/binuk.ogg" typeof="audio/ogg"></audio>
                 </div>
             <div style="display:flex;  width:240px; position:relative; margin: 3px; gap: 2px;">
-                <div class=""><img style="background:dodgerblue;width: 80px; height:80px; border-radius: 100%;" src="images/mehupa.png" alt="binuk"></div>
+                <div class=""><img style="background:dodgerblue;width: 80px; height:80px; border-radius: 100%;" src="images/mehupa.png" loading="lazy" alt="binuk"></div>
                 <p style="font-size: 15px;">Methupa Binuk <br> <i style="color: grey;">Software Engineer</i></p>
             </div>
             </div>
@@ -194,7 +194,7 @@
         
                            </div>
             <div style="display:flex;  width:240px; position:relative; margin: 3px; gap: 2px;">
-                <div class=""><img style="background:dodgerblue;width: 80px; height:80px; border-radius: 100%;" src="images/nanda3.webp" alt="binuk"></div>
+                <div class=""><img style="background:dodgerblue;width: 80px; height:80px; border-radius: 100%;" src="images/nanda3.webp" loading="lazy" alt="binuk"></div>
                 <p style="font-size: 15px;">Chandrika <br> <i style="color: grey;">Qatar Medicare</i></p>
             </div>
             </div>
@@ -203,7 +203,7 @@
                 <div class="" style="display: flex; flex-direction: column; align-items:center;">
                     <p style="text-align: justify; margin:10px; font-size:18px">
                        Highly recommended ! I was interested on a navigation based website from the beginning. I met Limuthu
-                         while finding a personal that can build a website beyond  one page scroll.
+                         while finding a person that can build a website beyond  one page scroll.
                         Support was really good. Hosting my company in internet was a dream for me 
                         that was turn into a reality thanks for Limuthu. Now, I can scale my cinnamon business.
                     </p>
@@ -212,7 +212,7 @@
                         
                 </div>
             <div style="display:flex;  width:240px; position:relative; margin: 3px; gap: 2px;">
-                <div class=""><img style="background:dodgerblue;width: 80px; height:80px; border-radius: 100%;" src="images/thenul.webp" alt="binuk"></div>
+                <div class=""><img style="background:dodgerblue;width: 80px; height:80px; border-radius: 100%;" src="images/thenul.webp" alt="thenul" loading="lazy"></div>
                 <p style="font-size: 15px;">Thenul <br> <i style="color: grey;">Cinnamon Exporter</i></p>
             </div>
             </div>
@@ -226,7 +226,7 @@
         
                            </div>
             <div style="display:flex;  width:280px; position:relative; margin: 3px; gap: 2px;">
-                <div class=""><img style="background:dodgerblue;width: 60px; height:60px; border-radius: 100%;" src="images/book.ico" alt="binuk"></div>
+                <div class=""><img style="background:dodgerblue;width: 60px; height:60px; border-radius: 100%;" src="images/book.ico" alt="professor stories" loading="lazy"></div>
                 <p style="font-size: 15px;">Professor Stories <br> <i style="color: grey;">A Boston Book Company</i></p>
             </div>
             </div>
