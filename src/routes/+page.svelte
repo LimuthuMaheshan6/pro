@@ -35,19 +35,19 @@
    <div  class="cards-cost">
         <div class="card-cost">
             <b>Not Marketing Specialized</b>
-            <img style="border-radius: 45px; " src="images/anti_marketing.jpeg" alt="nomarketing" width="225px">
+            <img style="border-radius: 45px; " src="images/anti_marketing.jpeg" alt="nomarketing" loading="lazy" width="225px">
             <p></p>
         </div>
 
         <div class="card-cost">
             <b>One Page Scroll Only</b>
-            <img style="border-radius:30px" src="images/one-page.png" alt="one-page-only" width="200px">
+            <img style="border-radius:30px" src="images/one-page.png" alt="one-page-only" loading="lazy" width="200px">
             <p></p>
         </div>
 
         <div class="card-cost">
             <b>Not SEO Focused</b>
-            <img class="" src="images/google.jpg" width="270px" alt="google-logo">
+            <img class="" src="images/google.jpg" width="270px" loading="lazy" alt="google-logo">
             <p></p>
         </div>
     </div> 
@@ -73,17 +73,17 @@
     <div class="value-c">
         <div class="value-content">
             <b>Lead Generation</b>
-            <img style="border-radius: 100%;"  width="200px" src="images/lead.webp" alt="leads">
+            <img style="border-radius: 100%;"  width="200px" src="images/lead.webp" alt="leads" loading="lazy">
             <p>Reduced unquality clients. Enhanced sales.</p>
         </div>
         <div class="value-content">
             <b>Save Time</b>
-            <img style="border-radius: 100%;"  width="210px" height="200px" src="images/time.webp" alt="time management">
+            <img style="border-radius: 100%;"  width="210px" height="200px" src="images/time.webp" alt="time management" loading="lazy">
             <p>Count the time you wasted explaining. <br></p>
         </div>
         <div class="value-content">
             <b>High Authority</b>
-            <img style="border-radius: 100%;"  width="200px" height="200px" src="images/authority.webp" alt="authority">
+            <img style="border-radius: 100%;"  width="200px" height="200px" src="images/authority.webp" alt="authority" loading="lazy">
             <p>Only few have a personal website
             </p>
         </div>
@@ -102,7 +102,7 @@
         </div>
         <a style="text-decoration: none; color: white; margin-bottom: 30px;" href="video">
             <button class="btn-watch">
-                    <img style="transform: translateY(3px); " width="20px" height="20px" src="/images/play-button.png" alt="btn"> WATCH VIDEO</button></a>
+                    <img style="transform: translateY(3px); " width="20px" height="20px" src="/images/play-button.png" alt="btn" loading="lazy"> WATCH VIDEO</button></a>
         
   
 </section>
@@ -118,28 +118,28 @@
         <div class="plan-card">
             <br><b>1. WATCH</b>
             <p>Hour Explain Video</p>
-            <img style="border-radius: 18px; box-shadow: 0px 0 3px 1px grey;" src="images/video-icon.webp" width="210px" height="210px" alt="speed">
+            <img style="border-radius: 18px; box-shadow: 0px 0 3px 1px grey;" src="images/video-icon.webp" width="210px" height="210px" alt="speed" loading="lazy">
 
             
         </div>
         <div class="plan-card">
             <br><b>2. CALL</b>
             <p>Contact Us Now</p>
-            <img style="border-radius: 18px; box-shadow: 0px 0 30px 1px grey;" src="images/whatsapp.webp" width="210px" height="210px" alt="speed">
+            <img style="border-radius: 18px; box-shadow: 0px 0 30px 1px grey;" src="images/whatsapp.webp" width="210px" height="210px" alt="speed" loading="lazy">
 
             
         </div>
         <div class="plan-card">
             <br> <b style="">3. Buy  Website</b>
             <p>High Performance Oriented Websites </p>
-            <img style="border-radius: 18px; box-shadow: 0px 0 30px 1px grey;" src="images/speed.webp" width="240px" height="210px" alt="speed">
+            <img style="border-radius: 18px; box-shadow: 0px 0 30px 1px grey;" src="images/speed.webp" width="240px" height="210px" alt="performance" loading="lazy">
         </div>
         <div class="plan-card">
             <div style="margin-top: 18px" class="div">
                 <b>4. Save Yourself</b>
                 <p>Save Time, Money and Reputation</p>
             </div>
-            <img style="border-radius: 18px; " src="images/rescue.webp" width="210px" height="210px" alt="speed">
+            <img style="border-radius: 18px; " src="images/rescue.webp" width="210px" height="210px" alt="speed" loading="lazy">
 
      
         </div>
