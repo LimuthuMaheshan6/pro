@@ -4,11 +4,7 @@
 
    
 </script>
-<a target="_blank" href="https://wa.me/send?phone=94703143435">
-    <div class="whatsapp-icon">
-        <img src="icon/social.png" width="65px" alt="icon">
-    </div>
-</a>
+
 <section class="hero-section">
     <br><br>
     <div>
@@ -18,7 +14,7 @@
     <div>
         <a style="text-decoration: none; color: white;" href="video">
         <button class="btn-watch">
-                <img style="transform: translateY(3px); " width="20px" height="20px" src="/images/play-button.png" alt="btn"> WATCH VIDEO</button></a>
+                <img style="transform: translateY(3px); " width="20px" height="20px" src="/images/play-button.png" alt="btn" loading="lazy"> WATCH VIDEO</button></a>
         <a href="contact"><button class="btn-call">CALL NOW</button></a>
 
     </div>

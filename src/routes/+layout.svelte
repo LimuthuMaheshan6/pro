@@ -50,6 +50,11 @@
 
 
 <Navbar></Navbar>
+<a target="_blank" href="https://wa.me/send?phone=94703143435">
+    <div class="whatsapp-icon">
+        <img src="icon/social.png" width="65px" alt="icon" loading="lazy">
+    </div>
+</a>
 <div id="cursor" class="cursor"></div>
 <slot></slot>
 

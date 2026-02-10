@@ -29,7 +29,7 @@
                 <p class="service-p">Performance Focused. Doesn't have to worry about speed.</p>
             </div>
             <div >
-                <img class="img" src="images/high.webp"  alt="high performance">
+                <img class="img" src="images/high.webp"  alt="high performance" loading="lazy">
             </div>
         </div>
 
@@ -152,7 +152,7 @@
                 <p class="service-p">User friendly design based on your purpose, branding and colour themes.</p>
             </div>
             <div >
-                <img class="img" src="images/Design.webp" width="400px" alt="high performance">
+                <img class="img" src="images/Design.webp" width="400px" alt="high performance" loading="lazy">
             </div>
         </div>
 
