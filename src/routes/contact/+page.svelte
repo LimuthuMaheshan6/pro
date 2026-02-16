@@ -1,5 +1,7 @@
 <script lang="ts">
+    import axios from "axios";
     import { onMount } from "svelte";
+    
 
 
     import {z} from "zod";
@@ -30,6 +32,11 @@
     // so you can use it with confidence :)
     
 
+    async function postContacts() {
+       let response = await axios.post(`https://express-js-on-vercel-alpha-one-19.vercel.app/email?email=${form.email}&number=${form.number}`)
+       .then(res => res.data)
+       console.log("Response", response.data)
+    }
 
 </script>
 
@@ -47,6 +54,8 @@
         <form on:submit={(e) => {
             e.preventDefault()
 
+
+            postContacts()
 
             console.log("submited...")
             
