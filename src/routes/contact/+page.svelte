@@ -33,8 +33,10 @@
     
 
     async function postContacts() {
-       let response = await axios.post(`https://express-js-on-vercel-alpha-one-19.vercel.app/email?email=${form.email}&number=${form.number}`)
-       .then(res => res.data)
+       let response = await axios.post(`https://express-js-on-vercel-alpha-one-19.vercel.app/email`, {
+            email: form.email,
+            number: form.number
+       })
        console.log("Response", response.data)
     }
 
